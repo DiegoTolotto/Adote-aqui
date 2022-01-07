@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://i.pinimg.com/236x/3c/7f/d1/3c7fd16e6a7d69f6e9d5095608ea5d8b.jpg)
+}
+header{
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 2px solid black;
+    
+}
+
+#adoteaqui {
+    padding: 5px 0;
+    background-color: greenyellow;
+    flex-grow: 2;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center; 
+}
+
+#adoteaqui:hover {
+    color: rgb(192, 52, 52);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#adoteaqui:active {
+    background-color: green;
+}
+
+.caixa{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    flex-grow: 1;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.Home:hover {
+    color: lawngreen;
+    text-transform: uppercase;
+}
+
+.Home:active {
+    background-color: green;
+}
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 10px 0;
+}
+main {
+    margin: 100px;
+}
+.menu {
+margin: 0 auto;
+padding: 50px 0;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.menu li:hover {
+    text-transform: uppercase;
+    border-color: greenyellow;
+}
+.menu li:active {
+    color: grey;
+    border-color: grey;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 40px 0;
+}
+.copyrigh {
+    background-color: greenyellow;
+    padding: 20px 0 0;
+}
+
+@media (max-width: 700px) {
+    #adoteaqui {
+        display: none;
+    }
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+
+    }
+    main {
+        margin-top: 150px;
+
+    }
+
+}
+@media (max-width: 930px) {
+    ul {
+        font-size: 0.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
+    
